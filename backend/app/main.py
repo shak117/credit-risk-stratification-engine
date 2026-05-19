@@ -5,4 +5,4 @@ app = FastAPI()
 
 @app.get("/")
 def home():
-    return {"message": "first backend feature"}
+    return {"message": "backend running succesfully"}
