@@ -39,8 +39,6 @@ Prediction Response
         ↓
 Docker Container Deployment
 
-# setup guide
-
 Environment Setup Guide
 1. Clone Repository
 git clone <repository-link>
@@ -73,7 +71,7 @@ Run:
 python -m streamlit run frontend/dashboard.py
 Dashboard URL:
 http://localhost:8501
-
+________________________________________
 7. Docker Setup
 Build Docker image:
 docker build -t credit-risk-app -f docker/Dockerfile .
@@ -81,14 +79,14 @@ Run Docker container:
 docker run -p 8000:8000 credit-risk-app
 Application URL:
 http://localhost:8000
-
+________________________________________
 8. Git Branch Workflow
 Main branches used:
 main
 development
 feature/backend-api
 
-
+________________________________________
 9. Technologies Used
 •	FastAPI 
 •	Streamlit 
@@ -97,7 +95,7 @@ feature/backend-api
 •	Scikit-learn 
 •	Pandas 
 •	NumPy 
-
+________________________________________
 10. Project Structure
 backend/
 frontend/
@@ -106,5 +104,9 @@ data/
 configs/
 docs/
 docker/
+
+
+
+
 
 
