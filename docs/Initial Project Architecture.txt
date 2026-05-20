@@ -1,0 +1,35 @@
+# Initial Project Architecture
+
+## Project Structure
+
+credit-risk-stratification-engine/
+
+├── backend/
+│   └── app/
+│       └── main.py
+│
+├── frontend/
+│   └── dashboard.py
+│
+├── models/
+├── data/
+├── configs/
+├── docs/
+├── docker/
+│   └── Dockerfile
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
+
+## Architecture Workflow
+
+Streamlit Dashboard
+        ↓
+FastAPI Backend
+        ↓
+Machine Learning Model
+        ↓
+Prediction Response
+        ↓
+Docker Container Deployment
