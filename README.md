@@ -41,9 +41,8 @@ Docker Container Deployment
 
 Environment Setup Guide
 1. Clone Repository
-git clone <repository-link>
-Move into project folder:
-cd credit-risk-stratification-engine
+open github created manually repo
+then connected folder with repo using git init commands
 ________________________________________
 2. Create Python Virtual Environment
 Windows
