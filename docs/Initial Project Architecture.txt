@@ -1,8 +1,5 @@
-# Initial Project Architecture
 
-## Project Structure
 
-credit-risk-stratification-engine/
 
 ├── backend/
 │   └── app/
